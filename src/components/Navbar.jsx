@@ -13,11 +13,11 @@ const Navbar = () => {
                 <img src={logo} width={150} height={15} alt="Logo" />
             </a>
         </div>
-        <div className="md:hidden">
+        {/* <div className="md:hidden">
             <button onClick={toggleMenu} className="text-2xl pr-2 focus:outline-none" aria-label={isOpen ? "Close menu" : "Open menu"} >
                 {isOpen ? <RiCloseLine /> : <RiMenu3Line />}
             </button>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
