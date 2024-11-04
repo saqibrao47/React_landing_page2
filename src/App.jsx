@@ -2,14 +2,8 @@ import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
-  <>
-  <div>
-
+  <main className="overflow-x-hidden text-neutral-800 antialiased">
     <Navbar />
-    
-  
-  </div>
-  
-  </>
+  </main>
   )
 }

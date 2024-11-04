@@ -1,10 +1,26 @@
-
+import { useState } from "react";
+import logo from "../assets/logo1.png";
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
-   <div>
-    
-   </div>
+    <nav className="border-b-2 ">
+      <div className="max-w-7xl mx-auto flex justify-between items-center py-8">
+        <div className="pl-2">
+            <a href="#">
+                <img src={logo} width={150} height={15} alt="Logo" />
+            </a>
+        </div>
+        <div className="md:hidden">
+            <button onClick={toggleMenu} className="text-2xl pr-2 focus:outline-none" aria-label={isOpen ? "Close menu" : "Open menu"} >
+                {isOpen ? <RiCloseLine /> : <RiMenu3Line />}
+            </button>
+        </div>
+      </div>
+    </nav>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
