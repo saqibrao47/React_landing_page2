@@ -14,10 +14,4 @@ Front-End Development: Bringing designs to life with clean, maintainable code.
 UI/UX Design: Crafting intuitive and engaging digital experiences.
 Shopify Development: Custom themes and functionalities to boost online stores.
 E-ticketing Solutions: Streamlined booking systems for educational institutions.
-VPN Solutions: Implementing secure browsing environments for regions like Pakistan.
-🌐 Let's Connect
-Portfolio 🌐
-LinkedIn 💼
-Twitter 🐦
-Email 📧
-Feel free to explore my repositories and reach out if you'd like to collaborate or discuss exciting new projects!
+VPN Solutions: Implementi
